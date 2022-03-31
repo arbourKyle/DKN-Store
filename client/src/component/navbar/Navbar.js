@@ -7,7 +7,7 @@ import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Login from "../Login";
-import Logout from "../Logout";
+// import Logout from "../Logout";
 
 const Navbar = () => {
   // creating the function which can be assinged to element so it is fires when user clicks on it
