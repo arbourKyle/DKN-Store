@@ -8,6 +8,7 @@ import Footer from "./component/footer/Footer";
 // import Faq from "./component/footer/FAQ";
 import Login from "./component/Login";
 import FAQ from "./component/footer/FAQ";
+import Contact from "./component/footer/Contact";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route exact path="/faq" element={<FAQ />} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
