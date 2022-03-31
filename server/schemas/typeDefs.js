@@ -18,14 +18,13 @@ const typeDefs = gql`
     category: String!
     rating: Int    
   }
-  Auth {
+  type Auth {
     token: ID
     user: User
   }
   type Query {
     products: [Product]
     product(_id: String): Product
-    matchups(_id: String): [Matchup]
   }
   type Mutation {
     createProduct(
