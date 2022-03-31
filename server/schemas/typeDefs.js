@@ -11,7 +11,7 @@ const typeDefs = gql`
   type Product {
     _id: ID!
     name: String!
-    short_desc: String!
+    short_desc: String
     long_desc: String
     price: Int
     image: String!
@@ -29,7 +29,7 @@ const typeDefs = gql`
   type Mutation {
     createProduct(
       name: String!
-      short_desc: String!
+      short_desc: String
       long_desc: String
       price: Int
       image: String!
