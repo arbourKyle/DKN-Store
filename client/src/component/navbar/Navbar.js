@@ -6,6 +6,8 @@ import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Login from "../Login";
+import Logout from "../Logout";
 
 const Navbar = () => {
   // creating the function which can be assinged to element so it is fires when user clicks on it
@@ -22,11 +24,17 @@ const Navbar = () => {
           <HomeIcon />
         </Link>
         <Link
+          
+     
+      
+        
           to="/login"
           className={activeNav === "/login" ? "active" : ""}
           onClick={() => setActive("/login")}
         >
           <VpnKeyIcon />
+        
+        <Login />
         </Link>
 
         <Link
