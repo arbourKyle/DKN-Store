@@ -1,0 +1,33 @@
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(198, 195, 224);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+ .footer.links {
+   margin-left: auto;
+ }
+ .footer a {
+   margin-left: 50%;
+   /* text-decoration: none; */
+   padding: 6px;
+ }
+ .footer a:hover {
+   color: #f1356d;
+ }
+ /* content {
+   max-width: 600px;
+   margin: 40px auto;
+   padding: 20px;
+ } */
+ .footer span{
+   flex-basis: 20%;
+ }
+ span p{
+   color: rgba(54, 117, 218, 0.972);
+ }
