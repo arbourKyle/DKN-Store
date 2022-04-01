@@ -16,7 +16,7 @@ const typeDefs = gql`
     name: String!
     short_desc: String
     long_desc: String
-    price: Int
+    price: Float
     units: String
     image: String!
     category: [Category]
