@@ -17,7 +17,10 @@ import HomePage from "./component/Homepage";
 import Dashboard from "./component/dashboard";
 
 
+
+
 import Login from "./component/Login";
+
 
 
 
@@ -31,6 +34,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/faq" element={<Faq />} />
+          <Route exact path="/faq" element={<FAQ />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
@@ -39,6 +43,7 @@ function App() {
 
 
         <Dashboard />
+     
 
         <Footer />
       </Router>
