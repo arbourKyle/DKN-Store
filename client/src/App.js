@@ -6,13 +6,13 @@ import Navbar from "./component/navbar/Navbar";
 
 import Footer from "./component/footer/Footer";
 
-import Faq from "./component/footer/Faq";
+
 import Login from "./component/Login";
 
 
 
 import Faq from "./component/footer/Faq";
-import HomePage from "./component/Homepage";
+
 
 
 
@@ -23,7 +23,6 @@ import Dashboard from "./component/dashboard";
 
 
 
-import Login from "./component/Login";
 
 
 
