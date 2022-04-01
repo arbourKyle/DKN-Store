@@ -12,7 +12,6 @@ import HomePage from "./component/Homepage";
 
 
 
-import Login from "./component/Login";
 
 
 import Profile from "./component/Profile";
@@ -27,7 +26,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
-          <Route exact path="/faq" element={<FAQ />} />
+          <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
 
