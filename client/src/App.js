@@ -14,7 +14,7 @@ import HomePage from "./component/Homepage";
 
 
 
-import Profile from "./component/Profile";
+import Dashboard from "./component/dashboard";
 
 
 import Login from "./component/Login";
@@ -33,7 +33,7 @@ function App() {
 
 
 
-        <Profile />
+        <Dashboard />
 
         <Footer />
       </Router>
