@@ -6,25 +6,31 @@ import Navbar from "./component/navbar/Navbar";
 
 import Footer from "./component/footer/Footer";
 
+
 import Faq from "./component/footer/Faq";
 import HomePage from "./component/Homepage";
 
 
-// import Faq from "./component/footer/FAQ";
+
 import Login from "./component/Login";
 
 
 import Profile from "./component/Profile";
+
+
+import Login from "./component/Login";
+
+
 function App() {
   return (
     <div>
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
-        <HomePage />
         <Routes>
-          <Route exact path="/faq" element={<Faq />} />
-     
+          <Route exact path="/faq" element={<FAQ />} />
+          <Route exact path="/login" element={<Login />} />
         </Routes>
+
 
 
 
