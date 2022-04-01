@@ -7,7 +7,7 @@ const productSchema = new Schema({
   },
   short_desc: {
     type: String,
-    required: true,
+    
   },
   long_desc: {
     type: String,
@@ -17,15 +17,19 @@ const productSchema = new Schema({
     type: Number,
     default: 0,
   },
+  units: {
+    type: String,
+    
+  },
   image: {
     type: String,
     required: true,
     
   },
-  category: {
+  category: [{
     type: String,
     required: true,
-  },
+  }],
   rating: {
     type: Number,
     default: 0,

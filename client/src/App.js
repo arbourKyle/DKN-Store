@@ -5,10 +5,33 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./component/navbar/Navbar";
 
 import Footer from "./component/footer/Footer";
+
 import Faq from "./component/footer/Faq";
 import Login from "./component/Login";
 
+
+
+import Faq from "./component/footer/Faq";
+import HomePage from "./component/Homepage";
+
+
+
+
+
+import Dashboard from "./component/dashboard";
+
+
+
+
+import Login from "./component/Login";
+
+
+
+
+
+
 import Contact from "./component/footer/Contact";
+
 function App() {
   return (
     <div>
@@ -20,6 +43,13 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
   
         </Routes>
+
+
+
+
+        <Dashboard />
+     
+
         <Footer />
       </Router>
     </div>
