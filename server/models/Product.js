@@ -17,6 +17,10 @@ const productSchema = new Schema({
     type: Number,
     default: 0,
   },
+  units: {
+    type: String,
+    
+  },
   image: {
     type: String,
     required: true,

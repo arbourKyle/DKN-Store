@@ -14,8 +14,9 @@ const typeDefs = gql`
     short_desc: String
     long_desc: String
     price: Int
+    units: String
     image: String!
-    category: String!
+    category: [String]
     rating: Int    
   }
   type Auth {
