@@ -6,6 +6,10 @@ import Navbar from "./component/navbar/Navbar";
 
 import Footer from "./component/footer/Footer";
 
+import Faq from "./component/footer/Faq";
+import Login from "./component/Login";
+
+
 
 import Faq from "./component/footer/Faq";
 import HomePage from "./component/Homepage";
@@ -25,6 +29,7 @@ import Login from "./component/Login";
 
 
 
+
 import Contact from "./component/footer/Contact";
 
 function App() {
@@ -36,6 +41,7 @@ function App() {
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/contact" element={<Contact />} />
+  
         </Routes>
 
 
