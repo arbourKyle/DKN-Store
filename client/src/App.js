@@ -24,7 +24,7 @@ import Login from "./component/Login";
 
 
 
-import FAQ from "./component/footer/FAQ";
+
 import Contact from "./component/footer/Contact";
 
 function App() {
@@ -34,7 +34,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/faq" element={<Faq />} />
-          <Route exact path="/faq" element={<FAQ />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>

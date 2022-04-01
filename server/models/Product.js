@@ -26,10 +26,10 @@ const productSchema = new Schema({
     required: true,
     
   },
-  category: {
+  category: [{
     type: String,
     required: true,
-  },
+  }],
   rating: {
     type: Number,
     default: 0,

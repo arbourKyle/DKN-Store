@@ -7,7 +7,10 @@ const typeDefs = gql`
     password: String!
     cart: [Product]
   }
-
+  type Category {
+    _id: ID
+    name: String
+  }
   type Product {
     _id: ID!
     name: String!
@@ -16,7 +19,7 @@ const typeDefs = gql`
     price: Int
     units: String
     image: String!
-    category: [String]
+    category: [Category]
     rating: Int    
   }
   type Auth {
