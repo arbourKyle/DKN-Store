@@ -7,9 +7,8 @@ const resolvers = {
       return Product.find({});
     },
     product: async (parent, { _id }) => {
-  
-      const product = await Product.findById(_id);
-      return product
+      const params = _id ? { _id } : {};
+      return Product.find(params);
     },
   },
   Mutation: {

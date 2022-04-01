@@ -16,8 +16,8 @@ const typeDefs = gql`
     name: String!
     short_desc: String
     long_desc: String
-    price: Float
-    units: String!
+    price: Int
+    units: String
     image: String!
     category: [Category]
     rating: Int    
@@ -28,14 +28,14 @@ const typeDefs = gql`
   }
   type Query {
     products: [Product]
-    product(_id: ID!): Product
+    product(_id: String): Product
   }
   type Mutation {
     createProduct(
       name: String!
       short_desc: String
       long_desc: String
-      price: Float
+      price: Int
       image: String!
       category: String!
       rating: Int    
