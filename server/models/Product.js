@@ -7,7 +7,7 @@ const productSchema = new Schema({
   },
   short_desc: {
     type: String,
-    required: true,
+    
   },
   long_desc: {
     type: String,
@@ -16,6 +16,10 @@ const productSchema = new Schema({
   price: {
     type: Number,
     default: 0,
+  },
+  units: {
+    type: String,
+    
   },
   image: {
     type: String,

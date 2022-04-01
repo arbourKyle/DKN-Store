@@ -1,0 +1,154 @@
+[
+{
+	"image": "./img/hash.jpg",
+	"name": "GoldSeal Hash",
+	"long_desc": "By using separation methods that keep temperatures extra low, the original flavour of the terpene profile is better preserved, providing a truly satiating and memorable experience every time. HashCo Gold Seal Hash is developed by dedicated humans with an intense passion for Cannabis. A high-THC Hybrid blend with a very gassy-fruity-spicy-, and earthy terpene profile, HashCo Gold Seal Hash is a Canadian-made delicacy that is finally available on the regulated market.",
+	"price": 22.98,
+	"category": ["concentrate"],
+	"rating": 0
+},
+{
+	"image": "./img/hashDutchGold.jpg",
+	"name": "Dutch Gold Hash",
+	"long_desc": "Organic Marrakech Gold is Highly Dutch Organic's sativa-dominant blond hash that starts with trichome-rich, organic flower. Trichomes are separated from the plant material using a gentle abrasive technique that avoids heat or friction. The plant’s natural terpenes are extracted, and together make this hash sticky and soft to touch. It's gently pressed until it reaches a perfect density that's not too dry, but is easy enough to work using your fingers. The result is a smooth, bright golden-brown hash.",
+	"price": 30.00,
+	"category": ["concentrate"],
+	"rating": 0
+},
+{
+	"image": "./img/hashOkaMoonRock.jpg",
+	"name": "Moon Rock Hash",
+	"long_desc": "Okanagan Moon Rocks are hand-trimmed AAA quality indica buds, rolled in full-spectrum oil and then rolled again in high-quality kief for an enhanced smoking experience. Produced in Canada's famous Okanagan region under LED lights.",
+	"price": 28.50,
+	"category": ["concentrate"],
+	"rating": 0
+},
+{
+	"image": "./img/indica8Ball.jpg",
+	"name": "8 Ball Indica",
+	"long_desc": "8 Ball Kush is a beautiful indica that comes from Bubba and King Kush genetics. Imbued with a spicy and woody flavour, this heavy hitter is great for seasoned consumers that really want to feel the effects of their consumption experience. 18twelve’s 8 Ball Kush is a pure indica, derived from a pairing of classic Bubba and King Kush genetics. Grown in the beautiful Cowichan Valley of Vancouver Island, within a purpose-built indoor facility, every plant is flushed for two weeks to ensure no residual nutrients are present. All 18twelve flower is cured for a minimum of two weeks, ensuring optimal flavour, potency and a terpene-rich experience.",
+	"price": 50.00,
+	"category": ["indica","buds"],
+	"rating": 0
+},
+{
+	"image": "./img/indicaKali.jpg",
+	"name": "Kali Indica",
+	"long_desc": "Produced in collaboration with Lotus Cannabis Co., Kali is an indica dominant strain, bred from crossing Nepali OG with 88 G-13 Hashplant. Its aroma and tasting notes bring to mind dense, lush vegetation: woody and earthy, with sharp, spicy undertones.",
+	"price": 45.00,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/indicaMac.jpg",
+	"name": "Mac Indica",
+	"long_desc": "A first release from Carmel’s in-house breeding program, Dim MAC was born by crossing Drew’s Dark Helmet with a MAC male. The result is a beautiful flower that delivers the best of both genetics. The appearance is more MAC leaning with the density and flavour profile of the Dark Helmet. Expect hints of creamy citrus and cookie dough.",
+	"price": 48.00,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/indicaRomulan.jpg",
+	"name": "Romulan Indica",
+	"long_desc": "FVOPA Certified Organic Romulan is an indica-dominant strain derived from the North American Indica and White Rhino lineages. It produces dense, frosty buds and has flavours of pine, earth, and citrus from a terpene profile of limonene, myrcene, and pinene.",
+	"price": 33.25,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/indicaTumble.jpg",
+	"name": "Maple Indica",
+	"long_desc": "Organic Maple Kush is a certified organic indica bud grown in living soil using natural sunlight and purified rainwater. A TGOD original cross between Koloa Sunrise and GG4, Organic Maple Kush gets its name from the Canadian organic maple syrup used to feed the soil it grows in, giving it a natural source of carbohydrates. Its dense round buds with dark purple and green leaves are covered in frosty-white trichomes and bright orange pistils. This beautiful bud brings with it a tropical, fruity, kush-like finish, a result of myrcene and farnescene terpenes that dominate this strain's aroma and flavour.",
+	"price": 38.50,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbudRhino.jpg",
+	"name": "Rhino Indica",
+	"long_desc": "Featuring high THC potential, Pure Sunfarms' White Rhino is a classic BC bud strain, cultivated on the Gulf Islands before it became popular across Canada. An indica-dominant child of White Widow, our selected phenotype is both potent and intensely flavourful. Nearly hidden beneath a cover of snowy trichomes, the leaves of this compact bud showcase a variety of colours, ranging from sea green to lime peel, with splashes of amethyst. White Rhino was specifically selected for its fruity aromas of blueberries and mangos (myrcene), green grapes (alpha-pinene), and Thai basil (caryophyllene).",
+	"price": 24.50,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbuds.png",
+	"name": "Pipe Dream Sativa",
+	"long_desc": "With aromas of spice and mulled fruits, this cultivar coats the mouth with an abundance of gassy flavour. Dense, round buds feature hints of purple complementing generous amounts of frosting. Sativa-dominant with dominant terpenes that include myrcene and caryophyllene.",
+	"price": 38.50,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbudsCherry.jpg",
+	"name": "Frosted Cherry",
+	"long_desc": "For the discount smoker looking for something different, Potluck is a new take on the “value ounce”  featuring whole flower pouches designed for mixing and matching your way to an ounce. Potluck is available in indica, sativa, hybrid 7 g options. The word “pot-luck” appears in the 16th century English work of Thomas Nashe, and used to mean 'food provided for an unexpected or uninvited guest, the luck of the pot.'",
+	"price": 39.00,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbudsheadband.jpg",
+	"name": "Headband Hybrid",
+	"long_desc": "Born in California, but raised in BC, Headband is sought-after for its high THC potential. A hybrid of OG Kush and Sour Diesel, it became popular in Ontario before finding a home in BC’s temperate climate. The dense, elegantly contoured flowers exhibit a range of green colours under a coat of sticky trichomes. Headband offers flavours and scents of sweet and savoury spices including allspice and nutmeg (caryophyllene), lavender (linalool), lemon and coriander seeds (humulene). The combination of these terpenes results in its signature ‘gassy’ smell.",
+	"price": 25.00,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbudsTangerine.jpg",
+	"name": "Tangerine Twist Sativa",
+	"long_desc": "More for you and more to share with Spinach’s Tangerine Twist. Our Tangerine Twist premium high potency buds have a pleasant earthy, sweet and citrus aroma. Made with indoor grown, 1-on-1 plant care, and hand-trimmed quality cannabis. Simply put, Sativa Tangerine Twist is a big bag of quality flower for you and your buds.",
+	"price": 28.50,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbudWedding.jpg",
+	"name": "Wedding Pie",
+	"long_desc": "Perfect for those sunny afternoons in the Back Forty, Wedding Pie is the marriage of Wedding Cake crossed with Grape Pie. This strain can reach very high potencies and is grown with organic practices in an advanced hybrid greenhouse. These vibrant green buds also have a flair of purple, almost three per cent total terpene content and a spicy, cracked pepper profile. The top terpenes are trans-caryophyllene, linalool, farnesene, limonene and alpha-bisabolol. Always packaged in a resealable foil pouch to make sure your bud stays fresh. Back Forty requires no introduction because it already feels familiar, with a product suite that fits seamlessly into your day-to-day and without the need to overthink its purpose of providing a better experience for less. Take a trip and explore the Back Forty.",
+	"price": 23.50,
+	"category": ["indica", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/sativaApples.jpg",
+	"name": "Zour Apples Sativa",
+	"long_desc": "Zour Apples from Natural History is a mid- to high-THC cultivar. This sativa-dominant flower produces a sweet, vanilla and green apples aroma. To the eye, a Zour Apples bud is bright to medium green in appearance, with bright orange pistils scattered throughout. Zour Apples is fully cultivated indoors, in precision-controlled laboratory conditions. All Natural History flower is thoughtfully hung to dry, hand trimmed and cured for a minimum of 10 days. Its lineage includes Plantman Jack Herer and Ethos Cookies.",
+	"price": 42.50,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/sativaOrangeCake.jpg",
+	"name": "Orange Cake",
+	"long_desc": "For the discount smoker looking for something different, Potluck is a new take on the “value ounce” – featuring whole flower pouches designed for mixing and matching your way to an ounce. Potluck is available in indica, sativa, hybrid 7 g options. The word “pot-luck” appears in the 16th century English work of Thomas Nashe, and used to mean 'food provided for an unexpected or uninvited guest, the luck of the pot.'' Potluck dinners are events where the attendees bring a dish to a meal - a different meal. Potluck sativa will launch with Mimosa and will continually introduce new boutique strains as product sells out. Orange Cake has a strong aroma and flavour that reminds you of its namesake - with notes of fruit and citrus flavours bursting through.",
+	"price": 39.00,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/sativaPedro.jpg",
+	"name": "Pedros Sweet Sativa",
+	"long_desc": "Unique to Color, Pedro's Sweet Sativa is a proudly Canadian sativa-dominant hybrid with fluffy, trichome covered buds with very strong THC potential. Pedro’s Sweet Sativa is rich in beta-caryophyllene and pinene giving it a sweet smell with undertones of spice.",
+	"price": 28.75,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/rawbuds.jpg",
+	"name": "Frozen Lemons",
+	"long_desc": "Upon opening the jar, you will be hit with a decadent wave of lemon zest. After that initial wave, the complexity of the bouquet sets in with some spicy and sweet undertones. The bright green coloured flowers are dense and coated in trichomes. Vibrant orange hairs and faint purple accents make this cultivar look as good as it tastes. We are extremely excited to round out our list with this latest addition to the line-up. Hang-dried and hand-trimmed to preserve aroma and flavours.",
+	"price": 38.50,
+	"category": ["sativa", "buds"],
+	"rating": 0
+},
+{
+	"image": "./img/hashOkaMoonRock.jpg",
+	"name": "Moon Rock Hash",
+	"long_desc": "Okanagan Moon Rocks are hand-trimmed AAA quality indica buds, rolled in full-spectrum oil and then rolled again in high-quality kief for an enhanced smoking experience. Produced in Canada's famous Okanagan region under LED lights.",
+	"price": 28.50,
+	"category": "concentrate",
+	"rating": 0
+}
+]

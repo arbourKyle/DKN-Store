@@ -2,7 +2,7 @@
 import React from "react";
 import "./navbar.css";
 import HomeIcon from "@mui/icons-material/Home";
-import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
+// import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -37,13 +37,13 @@ const Navbar = () => {
         <Login />
         </Link>
 
-        <Link
+        {/* <Link
           to="/signup"
           className={activeNav === "/signup" ? "active" : ""}
           onClick={() => setActive("/signup")}
         >
           <AssignmentIndIcon />
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

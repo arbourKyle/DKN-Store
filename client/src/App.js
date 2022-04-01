@@ -20,6 +20,10 @@ import Dashboard from "./component/dashboard";
 import Login from "./component/Login";
 
 
+
+import FAQ from "./component/footer/FAQ";
+import Contact from "./component/footer/Contact";
+
 function App() {
   return (
     <div>
@@ -28,6 +32,7 @@ function App() {
         <Routes>
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
 
 
