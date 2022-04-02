@@ -33,12 +33,14 @@ function App() {
         <Routes>
           <Route exact path="/Main" element={<Main />} />
           <Route exact path="/faq" element={<Faq />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/contact" element={<Dashboard />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
         < Main />
+     
  <Dashboard />
         <Footer />
+    
      
 
 

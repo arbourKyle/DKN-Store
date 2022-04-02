@@ -1,6 +1,7 @@
 import React from 'react';
 import Logout from "../dashboard/Logout";
 import Login from "../dashboard/Login";
+import Contact from "../footer/Contact";
 const Navbar = () =>{
 	return (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,9 +24,10 @@ const Navbar = () =>{
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#"><Logout /></a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href=""></a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/contact"> Contact Us</a></li>
+            <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
           </ul>
         </li>
         <li class="nav-item">
