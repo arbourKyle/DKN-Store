@@ -23,15 +23,15 @@ const Navbar = () =>{
             More Info
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#"><Logout /></a></li>
-            <li><a class="dropdown-item" href=""></a></li>
-            <li><hr class="dropdown-divider"></hr></li>
+  
             <li><a class="dropdown-item" href="/contact"> Contact Us</a></li>
+            
+            <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled" href="#" tabindex="-1"><Logout />></a>
         </li>
       </ul>
       <form class="d-flex">

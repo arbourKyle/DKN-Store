@@ -1,9 +1,12 @@
-div.card {
-    align-content:center;
-    text-align:center;
 
-}
-div {
+
+  
+
+
+div.col {
     margin-left:auto;
     margin-right:auto;
+    border:2px solid black;
+    text-align:center;
+    color:black;
 }

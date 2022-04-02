@@ -7,9 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg") no-repeat center center;
   background-size: cover; */
- 
+  text-align:center;
 }
+div.productfetch {
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

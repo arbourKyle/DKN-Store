@@ -36,8 +36,8 @@ export default function ProductInfo () {
       <p>
         {name}:<br></br>
         Cost: ${price}  <br></br>
-                                   {units}: <br></br>
-                                <webp><img src={image}></img></webp> 
+                                   {units}:
+                             <img src={image}></img>
      
       </p>
     </div>
