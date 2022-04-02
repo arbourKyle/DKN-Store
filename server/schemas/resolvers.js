@@ -6,8 +6,8 @@ const resolvers = {
     products: async () => {
       return Product.find({});
     },
-    product: async (parent, { _id }) => {
-      const params = _id ? { _id } : {};
+    product: async (parent, __, { id }) => {
+      const params = id ? { id } : {};
       return Product.find(params);
     },
   },
