@@ -37,7 +37,7 @@ export default function ProductInfo () {
       <p>
        <h1>{name}<br></br></h1> 
       <h2>  Cost: ${price}  <br></br></h2>
-                                 <h3> Qnty: {units}:<br></br></h3> 
+                                 <h3> Qnty: {units}<br></br></h3> 
                              <img src={image}></img><br></br>
      <h5>{long_desc}</h5>
       </p>
