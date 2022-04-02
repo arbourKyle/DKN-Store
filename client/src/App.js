@@ -1,11 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import './App.css';
+import background from "./img/background.jpg";
 
 //dashboard imports
 // import Dashboard from "./component/dashboard";
 // import Login from "./component/Login";
 
 //navbar imports
+import Navbar from "./component/testComponents/Navbar";
 // import Navbar from "./component/navbar/Navbar";
 // import HomePage from "./component/Homepage";
 
@@ -18,24 +21,13 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Router basename={process.env.PUBLIC_URL}>
-        <Navbar />
-        <Routes>
-          <Route exact path="/faq" element={<Faq />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/contact" element={<Contact />} />
-        </Routes>
+    <>
+    <Navbar>
+    
+    </Navbar>
 
-
-
-
-        <Dashboard />
-     
-
-        <Footer />
-      </Router>
-    </div>
+    <img src={background} height="500rem" width="100%"></img>
+    </>
   );
 }
 

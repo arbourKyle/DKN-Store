@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import Logout from "./Logout";
-import Products from "./Products";
+import Products from "../Products";
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
 

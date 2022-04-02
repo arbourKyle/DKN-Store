@@ -1,6 +1,6 @@
 import React from "react";
 
-import Profile from "./Profile";
+import Profile from "../profilePage/Profile";
 
 const dashboard = () => {
     return (
