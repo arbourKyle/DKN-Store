@@ -1,0 +1,26 @@
+
+
+
+.container{
+    margin: 5%;
+    padding: 10%;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg") no-repeat center center;
+    background-size: cover;
+    }
+    .form-control{
+     border: 10px solid #f2f2f2;
+     width: 1000px;
+     text-align: center;
+    }
+    input {
+        width: 1000px;
+        text-align: right;
+        } 
+    .btn{
+        color: blue;
+        width: 100px;
+    }
+    .row{
+        color: blue;
+        font-size: 1.5em;
+    }
