@@ -35,7 +35,7 @@ function App() {
     
     <Navbar />
     <Background />
-    {/* <Card /> */}
+    <Card />
 
     
     </>
