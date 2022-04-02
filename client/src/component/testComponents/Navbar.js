@@ -28,10 +28,12 @@ const Navbar = () =>{
             
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
+            <li><hr class="dropdown-divider"></hr></li>
+            <li><a class="dropdown-item" href="/"> <Logout /></a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1"><Logout />></a>
+          <a class="nav-link disabled" href="#" tabindex="-1"></a>
         </li>
       </ul>
       <form class="d-flex">
