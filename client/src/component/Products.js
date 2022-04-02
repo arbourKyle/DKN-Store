@@ -1,9 +1,9 @@
+import "../component/products.css"
 const Products = () => {
     return (
-      <div>
+      <div id="producttext">
   
-   
-       <h1>Featured Products:</h1>
+   <h4>Thanks for signing up, check out our products below!</h4>
       
             
         
