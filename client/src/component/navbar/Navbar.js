@@ -5,7 +5,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Login from "../Login";
+import Login from "../dashboard/Login"
 
 const Navbar = () => {
   // creating the function which can be assinged to element so it is fires when user clicks on it
