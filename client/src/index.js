@@ -20,8 +20,9 @@ const PRODUCT_INFO = gql `query Product {
   products {
   
     name
-   
+   price
     units
+    image
   }
 }`
 
@@ -30,10 +31,13 @@ export default function ProductInfo () {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
 
-  return data.products.map(({ name, units }) => (
+  return data.products.map(({ name, price, units, image }) => (
     <div>
       <p>
-        {name}:  {units}: 
+        {name}:<br></br>
+        Cost: ${price}  <br></br>
+                                   {units}: <br></br>
+                                 <img src={image}></img>
      
       </p>
     </div>
