@@ -1,11 +1,9 @@
 #welcome {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+
+    text-align:center;
+
 }
-.scale-in-center{
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg");
+#welcometext {
+    text-align:center;
 }
