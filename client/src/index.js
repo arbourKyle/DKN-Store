@@ -22,25 +22,28 @@ const PRODUCT_INFO = gql `query Product {
     name
    price
     units
+    long_desc
     image
   }
 }`
 
 export default function ProductInfo () {
   const { loading, error, data } = useQuery(PRODUCT_INFO)
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
+  if (loading) return <p>Please wait .... Loading products</p>;
+  if (error) return <p>{error.message}</p>;
 
-  return data.products.map(({ name, price, units, image }) => (
+  return data.products.map(({ name, price, units, image, long_desc }) => (
     <div>
       <p>
-        {name}:<br></br>
-        Cost: ${price}  <br></br>
-                                   {units}:
-                             <img src={image}></img>
-     
+       <h1>{name}<br></br></h1> 
+      <h2>  Cost: ${price}  <br></br></h2>
+                                 <h3> Qnty: {units}:<br></br></h3> 
+                             <img src={image}></img><br></br>
+     <h5>{long_desc}</h5>
       </p>
+      <br></br><br></br><br></br><br></br>
     </div>
+    
   ));
 }
 
