@@ -17,8 +17,8 @@ const Footer = () => {
         <Link
           to="/"
           className={activeNav === "/" ? "active" : ""}
-          onClick={() => setActive("/")}>
-        </Link>
+          onClick={() => setActive("/")}
+        ></Link>
       </span>
       <span>
         <Link
@@ -38,6 +38,11 @@ const Footer = () => {
         >
           <HelpCenterIcon />
         </Link>
+      </span>
+      <span>
+        <p>Our Address: Main street, ON
+          Our Phone number: 416-000-0000
+        </p>
       </span>
     </div>
   );
