@@ -6,6 +6,7 @@ import "jquery";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
+
 ReactDOM.render(
   <Auth0Provider
     domain="dev-xnlw15h5.us.auth0.com"
@@ -14,5 +15,6 @@ ReactDOM.render(
   >
     <App />
   </Auth0Provider>,
+  
   document.getElementById("root")
 );
