@@ -1,6 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
+// <<<<<<< kyleFrontEndBranch
+// import './App.css';
+// =======
+// import Navbar from "./component/navbar/Navbar";
+
+// import Footer from "./component/footer/Footer";
+
+// import Faq from "./component/footer/Faq";
+// import Login from "./component/Login";
+
+
+
+// import Faq from "./component/footer/Faq";
+// import HomePage from "./component/Homepage";
+
+// >>>>>>> main
 
 
 //dashboard imports
@@ -29,16 +44,43 @@ import './App.css';
 
 
 
-function App() {
-  return (
-    <>
+// <<<<<<< kyleFrontEndBranch
+// function App() {
+//   return (
+//     <>
     
-    <Navbar />
-    <Background />
-    <Card />
+//     <Navbar />
+//     <Background />
+//     <Card />
 
     
-    </>
+//     </>
+// =======
+
+// import Contact from "./component/footer/Contact";
+
+// function App() {
+//   return (
+//     <div>
+//       <Router basename={process.env.PUBLIC_URL}>
+//         <Navbar />
+//         <Routes>
+//           <Route exact path="/faq" element={<Faq />} />
+//           <Route exact path="/login" element={<Login />} />
+//           <Route exact path="/contact" element={<Contact />} />
+  
+//         </Routes>
+
+
+
+
+//         <Dashboard />
+     
+
+//         <Footer />
+//       </Router>
+//     </div>
+// >>>>>>> main
   );
 }
 

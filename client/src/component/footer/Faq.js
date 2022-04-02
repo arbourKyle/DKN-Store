@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-// import FAQ from "./FAQ";
 import Faq from "react-faq-component";
 import "./FAQ.css";
 function FAQ() {

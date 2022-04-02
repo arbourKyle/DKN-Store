@@ -1,98 +1,75 @@
+// npm i emailjs-com --save
+import emailjs from "emailjs-com";
 import React from "react";
-import axios from "axios";
 
-class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-  }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url: "http://localhost:3002/send",
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent.");
-        this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
-      }
-    });
-  }
+export default function Contact(){
+    function sendEmail(e){
 
-  resetForm() {
-    this.setState({ name: "", email: "", message: "" });
-  }
-
-  render() {
+         e.preventDefault();
+console.log(e.target);
+         emailjs
+           .sendForm("service_sheelvp", "template_a6rdwsv", e.target, "MnBNUi3npNLX_mrhJ")
+           .then(
+             (result) => {
+               console.log(result.text);
+             },
+             (error) => {
+               console.log(error.text);
+             }
+           );
+             e.target.reset()
+    }
     return (
-      <section className="page-section" id="contact">
+      <div>
         <div className="container">
-          <div className="App">
-            <form
-              id="contact-form"
-              onSubmit={this.handleSubmit.bind(this)}
-              method="POST"
-            >
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
+          <form onSubmit={sendEmail}>
+            <div className="row pt-5 mx-auto">
+              <div className="col-8 form-group mx-auto">
                 <input
                   type="text"
                   className="form-control"
-                  id="name"
-                  value={this.state.name}
-                  onChange={this.onNameChange.bind(this)}
+                  placeholder="Name"
+                  name="name"
                 />
               </div>
-              <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Email address</label>
+              <div className="col-8 form-group pt-2 mx-auto">
                 <input
                   type="email"
                   className="form-control"
-                  id="email"
-                  aria-describedby="emailHelp"
-                  value={this.state.email}
-                  onChange={this.onEmailChange.bind(this)}
+                  placeholder="Email Address"
+                  name="email"
                 />
               </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
+              <div className="col-8 form-group  pt-2 mx-auto">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Subject"
+                  name="subject"
+                />
+              </div>
+              <div className="col-8 form-group  pt-2 mx-auto">
                 <textarea
                   className="form-control"
-                  rows="5"
-                  id="message"
-                  value={this.state.message}
-                  onChange={this.onMessageChange.bind(this)}
-                />
+                  id=""
+                  cols="30"
+                  rows="8"
+                  placeholder="Your message"
+                  name="message"
+                ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </form>
-          </div>
+              <div className="col-8 pt-3 mx-auto">
+                <input
+                  type="submit"
+                  className="btn btn-info"
+                  value="Send Message"
+                ></input>
+              </div>
+            </div>
+          </form>
         </div>
-      </section>
+      </div>
     );
-  }
-
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
 }
 
-export default Contact;
