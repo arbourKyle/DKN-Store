@@ -511,7 +511,7 @@ const Search = () => {
           type="search"
           name="search"
           className="form-control"
-          placeholder="Search for a strain"
+          placeholder="Search through our inventory"
           value={searchQuery}
           onChange={(event) => handleSearch(event.target.value)}
         />
@@ -520,8 +520,8 @@ const Search = () => {
         <ul className="list-group">
           {sortedSearchResults.map(({ item }) => {
             return (
-              <li className="list-group-item" key={item.name}>
-                {item.name} ({item.code})
+              <li className="list-group-item" id="searchresults" key={item.name}>
+                {item.name} {item.code}
               </li>
             );
           })}
