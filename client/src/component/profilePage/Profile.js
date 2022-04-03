@@ -27,7 +27,7 @@ const Profile = () => {
         <Products />
       
         <br></br>
-   <Search />
+
         <br></br>
         <Card />
         <br></br>
