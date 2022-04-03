@@ -4,6 +4,7 @@ import Products from "../Products";
 import Logout from "../dashboard/Logout";
 import Card from "../testComponents/Card";
 import { IconButton } from "@mui/material";
+import Search from "../search/index";
 
 import "../profilePage/profile.css"
 const Profile = () => {
@@ -26,7 +27,7 @@ const Profile = () => {
         <Products />
       
         <br></br>
-   
+   <Search />
         <br></br>
         <Card />
         <br></br>
