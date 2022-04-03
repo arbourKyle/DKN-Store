@@ -1,8 +1,8 @@
 // import React from "react";
 import "./footer.css";
 import React from "react";
-import "./footer.css";
 
+import Contact from "./Contact";
 import HelpCenterIcon from '@mui/icons-material/HelpCenter';
 import PhoneIcon from '@mui/icons-material/Phone';
 import { useState } from "react";
@@ -24,10 +24,11 @@ const Footer = () => {
         <Link
           to="/contact"
           className={activeNav === "/contact" ? "active" : ""}
-          onClick={() => setActive("/contact")}
+          onClick={() => setActive(         <PhoneIcon />)}
         >
-          <PhoneIcon />
+  
         </Link>
+    
       </span>
 
       <span>

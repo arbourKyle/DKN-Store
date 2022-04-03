@@ -5,6 +5,7 @@ import Logout from "../dashboard/Logout";
 import Card from "../testComponents/Card";
 import { IconButton } from "@mui/material";
 import Dashboard from "../dashboard/dashboard";
+import "../profilePage/profile.css"
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
 
@@ -15,7 +16,7 @@ const Profile = () => {
   return (
     isAuthenticated && (
      
-     <div>
+     <div id="profilepage">
           
         <img src={user.picture} alt={user.name} />
       
