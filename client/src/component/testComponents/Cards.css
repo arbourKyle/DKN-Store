@@ -9,4 +9,10 @@ div.col {
     border:2px solid black;
     text-align:center;
     color:black;
+    overflow-y:scroll;
+    background-color:white;
+
+}
+div.card {
+    height:80vh;
 }
