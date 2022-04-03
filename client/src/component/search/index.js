@@ -521,7 +521,7 @@ const Search = () => {
           {sortedSearchResults.map(({ item }) => {
             return (
               <li className="list-group-item" id="searchresults" key={item.name}>
-                {item.name} {item.code}
+                {item.name} -  ${item.price} - {item.units}
               </li>
             );
           })}
