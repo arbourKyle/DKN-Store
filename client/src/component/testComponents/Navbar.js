@@ -2,8 +2,11 @@ import React from 'react';
 import Logout from "../dashboard/Logout";
 import Login from "../dashboard/Login";
 import Contact from "../footer/Contact";
+import { useAuth0 } from "@auth0/auth0-react";
 const Navbar = () =>{
-	return (
+  const {isAuthenticated} = useAuth0();
+	return ( 
+    isAuthenticated && (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">DKN Store</a>
@@ -43,7 +46,6 @@ const Navbar = () =>{
     </div>
   </div>
 </nav>
-)
-}
+    ))};
 
 export default Navbar
