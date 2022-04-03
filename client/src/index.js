@@ -30,7 +30,13 @@ const PRODUCT_INFO = gql `query Product {
     }
   }
 }`
-
+const CREATE_NEW_PRODUCT = gql `mutation CreateProduct($name: String!, $image: String!, $category: String!, $price: Int, $longDesc: String) {
+  createProduct(name: $name, image: $image, category: $category, price: $price, long_desc: $longDesc) {
+    name
+    image
+    price
+  }
+}`
 export default function ProductInfo () {
   const { loading, error, data } = useQuery(PRODUCT_INFO)
   if (loading) return <p>Please wait .... Loading products</p>;
