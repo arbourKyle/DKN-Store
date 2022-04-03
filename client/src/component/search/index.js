@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Fuse from "fuse.js";
+import "../search/search.css";
 const products = [
     {
         "image": "./img/shatterGlueBerry.webp",
@@ -504,12 +505,13 @@ const Search = () => {
     setSearchResults(results);
   };
   return (
-    <div>
+    <div id="searchbar">
       <div className="mb-4">
         <input
           type="search"
           name="search"
           className="form-control"
+          placeholder="Search for a strain"
           value={searchQuery}
           onChange={(event) => handleSearch(event.target.value)}
         />

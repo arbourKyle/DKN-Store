@@ -25,6 +25,8 @@ const Profile = () => {
         <p>{user.email}</p>
 
         <Products />
+      
+        <br></br>
         < Search />
         <br></br>
         <Card />
