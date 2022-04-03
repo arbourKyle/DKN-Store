@@ -5,7 +5,7 @@ import "./FAQ.css";
 function FAQ() {
   const [ setRowsOption] = useState(null);
   const data = {
-    title: "Most Popular",
+   
     rows: [
       {
         title: "Do I have to be home to receive my order?",
