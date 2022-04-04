@@ -1,11 +1,21 @@
 import React from 'react';
 import Logout from "../dashboard/Logout";
 import Dashboardbtn from "../dashboard/dashboardbutton"
-
+import { useAuth0 } from "@auth0/auth0-react";
 import Search from "../search/index";
+
+
+
+
+
+
+
+   
+
 const Navbar = () =>{
- 
-	return ( 
+  const { user, isAuthenticated, isLoading } = useAuth0();
+	return (  isAuthenticated && (
+
   (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -32,9 +42,9 @@ const Navbar = () =>{
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="/"> <Dashboardbtn /></a></li>
+            <li><a class="dropdown-item" href="/dashboard"> <Dashboardbtn /></a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="/"> <Logout /></a></li>
+            <li><a class="dropdown-item" href="/"><Logout /></a></li>
           </ul>
          
         </li>
@@ -49,6 +59,6 @@ const Navbar = () =>{
     </div>
   </div>
 </nav>
-    ))};
+    )))};
 
 export default Navbar
