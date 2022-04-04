@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useMutation, gql } from '@apollo/client';
-
+import "../component/createproducts.css";
 const CREATE_LINK_MUTATION = gql`
 mutation Mutation($name: String!, $image: String!, $category: String!) {
   createProduct(name: $name, image: $image, category: $category) {
@@ -46,8 +46,8 @@ const CreateProduct = () => {
           console.log('price:', formState.price)
         }}
       >
-        <div className="flex flex-column mt3">
-          Create a product <br></br>
+        <div className="flex flex-column mt3" id="createproductcontainer">
+          <h2 id="containertitle">Add a product:</h2> <br></br>
           <input
             className="mb2"
             value={formState.name}
