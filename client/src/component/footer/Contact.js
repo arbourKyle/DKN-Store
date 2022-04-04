@@ -62,7 +62,7 @@ console.log(e.target);
                 ></textarea>
               </div>
               <div className="col-8 pt-3 mx-auto" id="sendbtn">
-                <input
+                <input id="submitbtncontact"
                   type="submit"
                   className="btn btn-info"
                   value="Send Message"

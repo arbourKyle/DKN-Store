@@ -21,11 +21,15 @@ h1#contactmsg {
         width: 1000px;
         text-align: right;
         } 
-    .btn{
+   input#submitbtncontact{
         color: blue;
-        width: fit-content;
-       margin-left:50%;
-       margin-right:50%;
+        width:50%;
+        text-align:center;
+      margin-left:25%;
+        margin-right:25%
+    
+   
+    
     }
 
     .row{
