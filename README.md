@@ -1,14 +1,15 @@
 
   
-  # Generate a readme
+# DKN Store
 
-  Easily generate a readme file for various projects you may complete! (*This readme was generated using my application!*)
+This app requires users to login via Auth0, Products are displayed on the dashboard after logging in, products can be added into the database from the front-end, To   do: Implement admin role so product creation functionality only shows up with users under role:admin.
+
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   [A deployed version can be viewed here.:]
   
-  (https://github.com/gammahazard/Generate-A-Readme)
+ (Will be updated once login issue is resolved, for now refer to installation instructions)
   
 ---
 
@@ -26,13 +27,14 @@
 
 ## About
 
-  Upon running the application in your command line, you will be asked various questions about your project, after answering them a markdown file will be generated. This markdown file will contain your project information organized with a table of contents describing your project and any necessary information.
+  This app requires users to login via Auth0, Products are displayed on the dashboard after logging in, products can be added into the database from the front-end, To do: Implement admin role so product creation functionality only shows up with users under role:admin.
+
 
 ---
 
 ## Visuals:
-<img width="541" alt="af5bcf9775ac954283ec4d3a66d8fb62" src="https://user-images.githubusercontent.com/92896466/153789061-dd574ad4-3797-4dc1-afca-e399fba74bb2.png">
-<img width="1005" alt="e3122dae22bb1c30ad0e41f171484898" src="https://user-images.githubusercontent.com/92896466/153789213-d2b7fad9-3081-405e-8ffd-71c05b0404e3.png">
+<img width="541" alt="af5bcf9775ac954283ec4d3a66d8fb62" src="https://user-images.githubusercontent.com/dknreadmepics/homepage.jpg">
+
 
 
 
@@ -63,7 +65,7 @@
 ---
 
 ## Creator(s)
-  Navraj Dhaliwal
+  gammahazard, Darima, Kyle
 
 ---
 
@@ -81,6 +83,6 @@
 ---
 
 ## Contact:
-    *GitHub Username: gammahazard
+    *GitHub Username: gammahazard, Darimo4ka, arbourKyle
     *GitHub Email: navraj777@hotmail.com
   
