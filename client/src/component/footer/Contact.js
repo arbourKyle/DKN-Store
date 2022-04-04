@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import React from "react";
 import "./Contact.css"
 
+
 export default function Contact(){
     function sendEmail(e){
 
@@ -22,9 +23,9 @@ console.log(e.target);
     }
     return (
       <div>
- 
-        <div className="container">
-        <h1 id="contactmsg">Send us a message and we will get back to you soon!</h1>
+
+        <div className="container" id="contactcontainer">
+        <h1 id="contactmsg">Have any questions not in our<h1 id="contactmsg"><a href="/faq">F.A.Q?</a></h1> Leave a message and we will get back to you!</h1>
           <form onSubmit={sendEmail}>
             <div className="row pt-5 mx-auto">
               <div className="col-8 form-group mx-auto">
@@ -62,7 +63,7 @@ console.log(e.target);
                 ></textarea>
               </div>
               <div className="col-8 pt-3 mx-auto" id="sendbtn">
-                <input
+                <input id="submitbtncontact"
                   type="submit"
                   className="btn btn-info"
                   value="Send Message"

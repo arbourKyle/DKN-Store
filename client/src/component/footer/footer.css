@@ -1,33 +1,34 @@
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(198, 195, 224);
-  position: relative;
+  background-color: lightblue;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height:auto;
+
 }
 
- .footer.links {
-   margin-left: auto;
- }
+
  .footer a {
    margin-left: 50%;
    /* text-decoration: none; */
    padding: 6px;
+   display:block;
  }
- .footer a:hover {
-   color: #f1356d;
- }
- /* content {
-   max-width: 600px;
-   margin: 40px auto;
-   padding: 20px;
- } */
- .footer span{
-   flex-basis: 20%;
- }
+
+
+
  span p{
    color: rgba(54, 117, 218, 0.972);
+   text-align:center;
  }
+
+p#ouraddress {
+  font-weight:bold;
+}
+p {
+  display:inline-block;
+  padding:2%;
+
+}

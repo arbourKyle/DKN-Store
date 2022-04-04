@@ -9,6 +9,8 @@ h1#contactmsg {
     padding: 10%;
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg") no-repeat center center;
     background-size: cover;
+    border-radius:50%;
+ border:1px solid black;
     }
     .form-control{
      border: 10px solid #f2f2f2;
@@ -19,13 +21,24 @@ h1#contactmsg {
         width: 1000px;
         text-align: right;
         } 
-    .btn{
+   input#submitbtncontact{
         color: blue;
-        width: 15vh;
-        margin-left:15vh;
+        width:50%;
+        text-align:center;
+      margin-left:25%;
+        margin-right:25%
+    
+   
+    
     }
 
     .row{
         color: blue;
         font-size: 1.5em;
     }
+    a {
+        color:inherit;
+    }
+    a:hover {
+    color:white
+}

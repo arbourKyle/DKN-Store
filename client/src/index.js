@@ -24,23 +24,35 @@ const PRODUCT_INFO = gql `query Product {
     units
     long_desc
     image
+    rating
+    category {
+      name
+    }
   }
 }`
-
+const CREATE_NEW_PRODUCT = gql `mutation CreateProduct($name: String!, $image: String!, $category: String!, $price: Int, $longDesc: String) {
+  createProduct(name: $name, image: $image, category: $category, price: $price, long_desc: $longDesc) {
+    name
+    image
+    price
+  }
+}`
 export default function ProductInfo () {
   const { loading, error, data } = useQuery(PRODUCT_INFO)
   if (loading) return <p>Please wait .... Loading products</p>;
   if (error) return <p>{error.message}</p>;
 
-  return data.products.map(({ name, price, units, image, long_desc }) => (
+  return data.products.map(({ name, price, units, image, long_desc, rating, }) => (
     <div>
       <p>
        <h1>{name}<br></br></h1> 
       <h2>  Cost: ${price}  <br></br></h2>
                                  <h3> Qnty: {units}<br></br></h3> 
                              <img src={image}></img><br></br>
-     <h5>{long_desc}</h5>
+     <h5>{long_desc}
+     </h5>
       </p>
+     <h3> Rating: {rating}/5</h3>
       <br></br><br></br><br></br><br></br>
     </div>
     
@@ -51,7 +63,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="dev-xnlw15h5.us.auth0.com"
     clientId="ljAacqxUfHFmCdK9jjRJCr6TMlMqGlkK"
-    redirectUri={window.location.origin}
+    redirectUri="http://localhost:3000/dashboard"
   >
     <ApolloProvider client={client} >
     <App />

@@ -1,0 +1,44 @@
+
+
+input.mb2:empty {
+  text-align:center;
+background-color:transparent;
+margin:1%;
+
+}
+div#createproductcontainer {
+  display:inline-block;
+}
+form#productcreateform {
+  display:inline-block;
+  
+}
+input.mb2 {
+display:inline-block;
+width:fit-content;
+
+}
+h2#containertitle {
+  margin-top:1%;
+}
+input.mb2:hover{
+  background-color:orange;
+}
+button#submitbtncreate:hover {
+  background-color:orange;
+ 
+}
+button#submitbtncreate {
+  margin-top:2%;
+  border-radius:50%;
+  border:beige solid 2px;
+  background-color:beige;
+
+}
+
+div#createproductcontainer {
+  border-radius:5%;
+  border:2px solid black;
+  background-color:beige;
+  margin-top:1%;
+}

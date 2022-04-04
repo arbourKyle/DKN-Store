@@ -1,0 +1,17 @@
+#searchbar {
+    width: 50vh;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-y:scroll;
+    height:15vh;
+}
+
+#searchresults {
+    background-color:beige;
+
+}
+
+p#loginuser {
+text-align:center;
+font-weight:bolder;
+}

@@ -1,9 +1,22 @@
 import React from 'react';
 import Logout from "../dashboard/Logout";
-import Login from "../dashboard/Login";
-import Contact from "../footer/Contact";
+import Dashboardbtn from "../dashboard/dashboardbutton"
+import { useAuth0 } from "@auth0/auth0-react";
+import Search from "../search/index";
+
+
+
+
+
+
+
+   
+
 const Navbar = () =>{
-	return (
+  const { user, isAuthenticated, isLoading } = useAuth0();
+	return (  isAuthenticated && (
+
+  (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">DKN Store</a>
@@ -20,7 +33,7 @@ const Navbar = () =>{
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More Info
+            
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
   
@@ -29,21 +42,23 @@ const Navbar = () =>{
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="/"> <Logout /></a></li>
+            <li><a class="dropdown-item" href="/dashboard"> <Dashboardbtn /></a></li>
+            <li><hr class="dropdown-divider"></hr></li>
+            <li><a class="dropdown-item" href="/"><Logout /></a></li>
           </ul>
+         
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1"></a>
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+ <Search />
+       
       </form>
     </div>
   </div>
 </nav>
-)
-}
+    )))};
 
 export default Navbar

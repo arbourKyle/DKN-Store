@@ -1,21 +1,51 @@
+#welcome {
+  
 
+    text-align:center;
+
+}
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+div#welcome {
+color:black;
+font-weight:bold;
+outline:white;
+outline-width:1px;
+  border-radius:90%;
+top:0;
+background-size:cover;
+  background: url("https://2fast4buds.com/temp/img_upload/bg_fc3a57bfd3dd11bebac9ff9e0fab007c.jpg") no-repeat center center;
+}
+p.line-1 anim-typewriter {
+  display:block;
+}
+p#loginboot {
+  display:block;
+}
+#welcometext {
+    text-align:center;
+    font-size:250%;
+    margin-top:1.4;
+    padding-top:5%;
+}
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Global */
 html{
   min-height: 100%;
- 
+  overflow-y: scroll;
 }
 body{
-  height: calc(100vh - 8em);
+  height: auto;
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);  
  
 }
-
 .line-1{
     position: relative;
     top: 50%;  
@@ -42,4 +72,3 @@ body{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
-
