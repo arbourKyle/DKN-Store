@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductInfo from '../../index';  
-import "./../testComponents/Cards.css"
+import "./../productcards,navbar/Cards.css"
 const Card = () => {
 	return (
 <div class="row row-cols-1 row-cols-md-2 g-4">

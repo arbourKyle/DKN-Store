@@ -1,10 +1,8 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import Products from "../Products";
-import Logout from "../dashboard/Logout";
-import Card from "../testComponents/Card";
-import { IconButton } from "@mui/material";
-import Search from "../search/index";
+
+import Card from "../productcards,navbar/Card";
 
 import "../profilePage/profile.css"
 const Profile = () => {
