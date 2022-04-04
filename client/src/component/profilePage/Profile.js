@@ -29,7 +29,7 @@ const Profile = () => {
 
         <br></br>
         <Card />
-        <h3 id="adminrole">Admin role detected:</h3>
+        <h3 id="adminrole">Admin role detected:<br></br></h3>
         <CreateProduct />
         <br></br>
         <br></br>

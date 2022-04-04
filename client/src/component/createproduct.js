@@ -114,7 +114,7 @@ const CreateProduct = () => {
             type="int"
             placeholder="specify price"
           />
-        </div>
+        </div><br></br>
         <button type="submit" id="submitbtncreate">Add Product!</button>
       </form>
     </div>
