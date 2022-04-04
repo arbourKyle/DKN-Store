@@ -2,6 +2,7 @@
 import emailjs from "emailjs-com";
 import React from "react";
 import "./Contact.css"
+import Navbar from "../testComponents/Navbar";
 
 export default function Contact(){
     function sendEmail(e){
@@ -22,7 +23,7 @@ console.log(e.target);
     }
     return (
       <div>
- 
+
         <div className="container">
         <h1 id="contactmsg">Send us a message and we will get back to you soon!</h1>
           <form onSubmit={sendEmail}>

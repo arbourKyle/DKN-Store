@@ -2,12 +2,12 @@ import React from 'react';
 import Logout from "../dashboard/Logout";
 import Login from "../dashboard/Login";
 import Contact from "../footer/Contact";
-import { useAuth0 } from "@auth0/auth0-react";
+
 import Search from "../search/index";
 const Navbar = () =>{
-  const {isAuthenticated} = useAuth0();
+ 
 	return ( 
-    isAuthenticated && (
+  (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">DKN Store</a>
