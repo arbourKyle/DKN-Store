@@ -508,6 +508,7 @@ const Search = () => {  const { user, isAuthenticated, isLoading } = useAuth0();
   return isAuthenticated && (
       
     <div id="searchbar">
+      <p id = "loginuser">Logged in as: {user.name}</p> 
       <div className="mb-4">
         <input
           type="search"
