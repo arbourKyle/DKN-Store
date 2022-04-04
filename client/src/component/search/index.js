@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Fuse from "fuse.js";
 import "../search/search.css";
+import { useAuth0 } from "@auth0/auth0-react";
 const products = [
     {
         "image": "./img/shatterGlueBerry.webp",
@@ -481,7 +482,7 @@ const products = [
     }
     ]
 
-const Search = () => {
+const Search = () => {  const { user, isAuthenticated, isLoading } = useAuth0();
 
     
   const [searchQuery, setSearchQuery] = useState("");
@@ -491,7 +492,7 @@ const Search = () => {
 
 
   const sortedSearchResults = searchResults.sort((resultA, resultB) => {
-    return resultA.score - resultB.score;
+    return isAuthenticated && resultA.score - resultB.score;
   });
   const searchIndex = new Fuse(products, {
     includeScore: true,
@@ -504,7 +505,8 @@ const Search = () => {
     const results = searchIndex.search(searchQuery);
     setSearchResults(results);
   };
-  return (
+  return isAuthenticated && (
+      
     <div id="searchbar">
       <div className="mb-4">
         <input
