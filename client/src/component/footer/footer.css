@@ -23,11 +23,9 @@
    color: rgba(54, 117, 218, 0.972);
    text-align:center;
  }
- p#ouraddress{
-   display:inline-block;
- }
-p#phonenum {
-  display:inline-block;
+
+p#ouraddress {
+  font-weight:bold;
 }
 p {
   display:inline-block;
