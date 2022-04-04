@@ -2,7 +2,7 @@
   
 # DKN Store
 
-This app requires users to login via Auth0, Products are displayed on the dashboard after logging in, products can be added into the database from the front-end, To   do: Implement admin role so product creation functionality only shows up with users under role:admin.
+ An e-commerce page to display products and allow products to be updated by administrators
 
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
