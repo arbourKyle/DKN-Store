@@ -37,7 +37,7 @@ function FAQ() {
   };
  
   return (
-    <div>
+    <div className="container">
       <h2 className="section-title" id="faqtitle">Frequently Asked Questions</h2>
 
       <div className="faq-style-wrapper">

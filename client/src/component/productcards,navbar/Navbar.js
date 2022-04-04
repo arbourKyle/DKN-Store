@@ -1,7 +1,6 @@
 import React from 'react';
 import Logout from "../dashboard/Logout";
-import Login from "../dashboard/Login";
-import Contact from "../footer/Contact";
+import Dashboardbtn from "../dashboard/dashboardbutton"
 
 import Search from "../search/index";
 const Navbar = () =>{
@@ -33,8 +32,11 @@ const Navbar = () =>{
             <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/Faq"> FAQ</a></li>
             <li><hr class="dropdown-divider"></hr></li>
+            <li><a class="dropdown-item" href="/"> <Dashboardbtn /></a></li>
+            <li><hr class="dropdown-divider"></hr></li>
             <li><a class="dropdown-item" href="/"> <Logout /></a></li>
           </ul>
+         
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1"></a>
