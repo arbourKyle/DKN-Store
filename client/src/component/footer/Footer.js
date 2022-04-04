@@ -2,50 +2,18 @@
 import "./footer.css";
 import React from "react";
 
-import Contact from "./Contact";
-import HelpCenterIcon from '@mui/icons-material/HelpCenter';
-import PhoneIcon from '@mui/icons-material/Phone';
-import { useState } from "react";
-import { Link } from "react-router-dom";
 
 
 const Footer = () => {
-  const [activeNav, setActive] = useState("/");
+
   return (
-    <div className="footer">
-      <span>
-        <Link
-          to="/"
-          className={activeNav === "/" ? "active" : ""}
-          onClick={() => setActive("/")}
-        ></Link>
-      </span>
-      <span>
-        <Link
-          to="/contact"
-          className={activeNav === "/contact" ? "active" : ""}
-          onClick={() => setActive(         <PhoneIcon />)}
-        >
-  
-        </Link>
-    
-      </span>
 
       <span>
-        <Link
-          to="/faq"
-          className={activeNav === "/faq" ? "active" : ""}
-          onClick={() => setActive("/faq")}
-        >
-          <HelpCenterIcon />
-        </Link>
+     <p> <footer className="footer"> <p id="ouraddress">Our Address</p><p> Main street, ON</p>
+         <p id="phonenum"> Our Phone number: 416-000-0000 </p>
+         </footer></p> 
       </span>
-      <span>
-        <p>Our Address: Main street, ON
-          Our Phone number: 416-000-0000
-        </p>
-      </span>
-    </div>
+ 
   );
 };
 
