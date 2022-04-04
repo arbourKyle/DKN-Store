@@ -6,7 +6,7 @@ import Faq from "./component/footer/Faq";
 import Main from "./component/main/Main";
 import Dashboard from "./component/dashboard/dashboard";
 import Contact from "./component/footer/Contact";
-import Login from "./component/dashboard/Login";
+
 import "./App.css"
 function App() {
   return (
@@ -15,12 +15,12 @@ function App() {
         <Navbar />
     
         <Routes>
-          <Route exact path="/Main" element={<Main />} />
+          <Route exact path="/" element={<Main />} />
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-  <Login />
+
      
 
         <Footer />
