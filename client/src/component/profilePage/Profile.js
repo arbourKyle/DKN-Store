@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import Products from "../Products";
+import CreateProduct from "../createproduct";
 
 import Card from "../productcards,navbar/Card";
 
@@ -28,6 +29,8 @@ const Profile = () => {
 
         <br></br>
         <Card />
+        <h3 id="adminrole">Admin role detected:</h3>
+        <CreateProduct />
         <br></br>
         <br></br>
         <br></br>
