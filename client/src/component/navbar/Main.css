@@ -14,10 +14,10 @@
 /* Global */
 html{
   min-height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 body{
-  height: calc(100vh - 8em);
+  height: auto;
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  

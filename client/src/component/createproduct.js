@@ -47,6 +47,7 @@ const CreateProduct = () => {
         }}
       >
         <div className="flex flex-column mt3">
+          Create a product <br></br>
           <input
             className="mb2"
             value={formState.name}
