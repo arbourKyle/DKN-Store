@@ -19,9 +19,9 @@ function App() {
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-        < Main />
+    < Main />
      
- <Dashboard />
+
         <Footer />
     
      

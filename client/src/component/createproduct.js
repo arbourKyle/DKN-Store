@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useMutation, gql } from '@apollo/client';
 import "../component/createproducts.css";
-const CREATE_LINK_MUTATION = gql`
+const CREATE_PRODUCT_MUTATION = gql`
 mutation Mutation($name: String!, $image: String!, $category: String!) {
   createProduct(name: $name, image: $image, category: $category) {
     name
@@ -21,7 +21,7 @@ const CreateProduct = () => {
 
   })
 
-  const [CreateProduct] = useMutation(CREATE_LINK_MUTATION, {
+  const [CreateProduct] = useMutation(CREATE_PRODUCT_MUTATION, {
     variables: {
       name: formState.name,
       image: formState.image,
@@ -34,7 +34,7 @@ const CreateProduct = () => {
 
   return (
     <div>
-      <form
+      <form id = "productcreateform"
         onSubmit={(e) => {
           e.preventDefault();
           CreateProduct();

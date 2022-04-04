@@ -23,7 +23,7 @@ console.log(e.target);
     return (
       <div>
 
-        <div className="container">
+        <div className="container" id="contactcontainer">
         <h1 id="contactmsg">Have any questions not in our<h1 id="contactmsg"><a href="/faq">F.A.Q?</a></h1> Leave a message and we will get back to you!</h1>
           <form onSubmit={sendEmail}>
             <div className="row pt-5 mx-auto">

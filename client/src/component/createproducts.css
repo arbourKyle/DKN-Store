@@ -1,10 +1,22 @@
+
+
 input.mb2:empty {
   text-align:center;
 background-color:transparent;
 margin:1%;
 
 }
+div#createproductcontainer {
+  display:inline-block;
+}
+form#productcreateform {
+  display:inline-block;
+  
+}
+input.mb2 {
+display:inline-block;
 
+}
 h2#containertitle {
   margin-top:1%;
 }

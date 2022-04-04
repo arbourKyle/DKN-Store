@@ -63,7 +63,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="dev-xnlw15h5.us.auth0.com"
     clientId="ljAacqxUfHFmCdK9jjRJCr6TMlMqGlkK"
-    redirectUri={window.location.origin}
+    redirectUri="http://localhost:3000/dashboard"
   >
     <ApolloProvider client={client} >
     <App />
