@@ -33,7 +33,16 @@
 ---
 
 ## Visuals:
-<img width="541" alt="af5bcf9775ac954283ec4d3a66d8fb62" src="https://user-images.githubusercontent.com/dknreadmepics/homepage.jpg">
+## Visuals:
+![homepage](/dknreadmepics/homepage.jpg?raw=true "homepage")
+![contact](/dknreadmepics/contact.png?raw=true "contact")
+![dashboard/Profile Page](/dknreadmepics/dashboard.png?raw=true "dashboard")
+![dashboard-products](/dknreadmepics/dashboard-products.jpg?raw=true "dashboard-products")
+![dashboard-addproducts](/dknreadmepics/dashboard-addproducts.png?raw=true "dashboard-addproducts")
+![dashboard-productcreated](/dknreadmepics/dashboard-productcreated.png?raw=true "dashboard-productcreated")
+![dashboard-testproductadded](/dknreadmepics/dashboard-testproductadded.png?raw=true "dashboard-testproducteadded")
+![faq](/dknreadmepics/faq.png?raw=true "faq")
+![navbar](/dknreadmepics/navbar.png?raw=true "navbar")
 
 
 
@@ -42,11 +51,20 @@
 ---
 
 ## Installation:
-  After downloading the repository, simply run npm install to get the required packages from the packages.json file.
+1. Clone the repo, navigate to the root folder ("premiereReact") of the application **in the command line**. 
+2. Run "npm i", wait for it to finish
+3. Type cd server
+4. Run "npm i", wait for it to finish
+5. Type cd..
+6. Type cd client
+7. Run "npm i", wait for it to finish
+8. type cd..
+9. Type "npm start"
+10. The application will display in your web browser, to access the graphQL server, navigate to localhost:3001/graphql
 
   To clone the repo:
   
-      git clone https://github.com/gammahazard/Generate-A-Readme.git
+      git clone https://github.com/arbourKyle/DKN-Store.git
   
 ---
 
