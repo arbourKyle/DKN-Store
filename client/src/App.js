@@ -6,6 +6,7 @@ import Faq from "./component/footer/Faq";
 import Main from "./component/main/Main";
 import Dashboard from "./component/dashboard/dashboard";
 import Contact from "./component/footer/Contact";
+import Login from "./component/dashboard/Login";
 import "./App.css"
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-    < Main />
+  <Login />
      
 
         <Footer />
