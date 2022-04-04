@@ -24,7 +24,7 @@ console.log(e.target);
       <div>
 
         <div className="container">
-        <h1 id="contactmsg">Send us a message and we will get back to you soon!</h1>
+        <h1 id="contactmsg">Have any questions not in our <a href="/faq">F.A.Q?</a> Leave a message and we will get back to you!</h1>
           <form onSubmit={sendEmail}>
             <div className="row pt-5 mx-auto">
               <div className="col-8 form-group mx-auto">
