@@ -8,7 +8,7 @@ import Dashboard from "./component/dashboard/dashboard";
 import Contact from "./component/footer/Contact";
 
 import "./App.css"
-function App() {
+const App = () =>  {
   return (
     <div className="background">
       <Router basename={process.env.PUBLIC_URL}>
